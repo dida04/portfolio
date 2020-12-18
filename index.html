@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Soyeon's portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/aos.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=
+    Nanum+Myeongjo:wght@400;700;800&family=
+    Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet">
+    
+    <!--모바일로 이동하는 스크립트 시작-->
+    <script type="text/javascript"> var UserAgent = navigator.userAgent; if (UserAgent.match(/iPhone|ipad|Android|Windows CE|BlackBerry|Symbian|Windows Phone|webOS|Opera Mini|Opera Mobi|POLARIS|IEMobile|lgtelecom|nokia|SonyEricsson/i) != null || UserAgent.match(/LG|SAMSUNG|Samsung/) != null) { location.href = "m_index.html"; }
+    </script>
+    <!--모바일로 이동하는 스크립트 끝-->
+
+
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo" data-aos="fade-up" data-aos-duration="1500">
+          <a href="index.html"><img src="img/01_logo.png" alt="sy's protfolio"></a>
+        </div>
+        <div class="menu">
+          <ul>
+            <li><a href="sub01.html">Identity</a></li>
+            <li><a href="sub02.html">Package</a></li>
+            <li><a href="sub03.html">Editorial</a></li>
+            <li><a href="sub04.html">Advertisement</a></li>
+            <li><a href="sub05.html">UI/UX</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section>
+        <!--동영상 부문-->
+<!--
+        <div class="undervideo">
+        <video autoplay muted loop id="myvideo">
+            <source src="mov/mov_1.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>    
+        </div>
+-->
+        <!--타이틀 부문-->
+        <div class="keyvisual"><!--키비주얼이 나오는 영역-->
+            <div class="keyvisual_wrap"><!--키비주얼의 1024pixel을 중앙에 연출 영역-->
+                <div class="keyvisual_title" data-aos="zoom-in" data-aos-duration="1500"><!--키비주얼의 title을 처리하는 영역-->
+                    <img src="img/03_keyvisual_tit.png" alt="0">
+                </div>
+            </div>
+        </div>
+        <!--프로필 부문-->
+        <div class="profile">
+            <div class="profile_wrap">
+                <div class="profile_01" data-aos="fade-up" data-aos-duration="1500"><img src="img/04_01_txt.png" alt="profile"></div>
+                <div class="profile_02" data-aos="fade-up" data-aos-duration="1500"><img src="img/04_02_txt.png" alt="education"></div>
+                <div class="profile_03" data-aos="fade-up" data-aos-duration="1500"><img src="img/04_03_txt.png" alt="certificate"></div>
+                <div class="profile_04" data-aos="fade-up" data-aos-duration="1500"><img src="img/04_04_txt.png" alt="skill"></div>
+            </div>
+        </div>
+        <!--버튼 부문-->
+        <div class="bottom">
+            <div class="bot_tit"><img src="" alt=""></div>
+            <div class="bot_wrap">
+                <div class="bot_bt"><a href="#"><img src="" alt=""></a></div>
+                <div class="bot_bt"><a href="#"><img src="" alt=""></a></div>
+                <div class="bot_bt"><a href="#"><img src="" alt=""></a></div>
+                <div class="bot_bt"><a href="#"><img src="" alt=""></a></div>
+            </div>
+            <div class="bot_wrap">
+                <div class="bot_bt"><a href="#"><img src="" alt=""></a></div>
+                <div class="bot_bt"><a href="#"><img src="" alt=""></a></div>
+                <div class="bot_bt"><a href="#"><img src="" alt=""></a></div>
+                <div class="bot_bt"><a href="#"><img src="" alt=""></a></div>
+            </div>
+        </div>
+    </section>
+    <!--푸터 부문-->
+    <footer>
+        <div class="footer_wrap">
+            <span class="footer_logo"><a href="main.html"><img src="img/logo%20gray.png" alt="footerlogo"></a></span>
+            <span class="footer_txt">Copyright 2020. 심소연. All rights reserved.<br>e-mail&nbsp; s_y0309@naver.com
+</span>
+        </div>
+    </footer>
+    
+    <!--스크롤 스크립트-->
+    <script type="text/javascript" src="js/jquery-latest.js"></script>
+    <script>
+      function fnMove(seq){
+        var offset = $("#anchor" + seq).offset();
+        $('html,body').animate({scrollTop : offset.top}, 1200);
+      }
+    </script>
+
+    <!--AOS 스크립트-->
+    <script type="text/javascript" src="js/aos.js"></script>
+    <script>
+      AOS.init({
+        easing: 'ease-in-out-sine'
+      });
+    </script>
+    
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
